@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-neon-green: #00ff41;
+  --color-dark-bg: #0d1117;
+  --font-mono: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: white;
+  font-family: var(--font-mono);
+  overflow-x: hidden;
+}
