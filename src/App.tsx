@@ -28,7 +28,7 @@ function App() {
             className="container mx-auto px-4 py-8"
           >
             <header className="text-center mb-16 mt-8">
-              <img src="/scg.png" alt="SCG Logo" className="h-20 mx-auto mb-6" />
+              <img src={`${import.meta.env.BASE_URL}scg.png`} alt="SCG Logo" className="h-20 mx-auto mb-6" />
               <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-[#00ff41] to-blue-500 bg-clip-text text-transparent">
                 SYSTEM UPGRADE: 2026
               </h1>
